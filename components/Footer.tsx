@@ -31,9 +31,14 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           <div>
             <div className="flex items-center space-x-2 mb-6">
-              <div className="w-12 h-12 bg-black rounded-full flex items-center justify-center">
-                <span className="text-white font-bold text-xl">AO</span>
-              </div>
+               <Link href="/" className="flex items-center space-x-2 group">
+            <div className="w-10 h-10 bg-black rounded-lg flex items-center justify-center">
+              <span className="text-white font-bold text-xl">TB</span>
+            </div>
+            <span className="text-xl font-bold tracking-tight text-gray-900 group-hover:text-yellow-500 transition-colors">
+              Life By Design
+            </span>
+          </Link>
             </div>
             <p className="text-sm text-gray-600 mb-4">
               © 2025-26 All Enterprise All rights reserved.
