@@ -18,7 +18,7 @@ const videos = [
     id: 2, 
     title: 'Entrepreneurship Without Borders: Aligning Purpose with Business Growth | EP 1- Life by Design',
     thumbnail: '/ep-2.jpg',
-    videoUrl: 'https://www.youtube.com/watch?v=example2',
+    videoUrl: 'https://www.youtube.com/watch?v=Py9m42Qc-JI',
     views: '98K',
     duration: '45:30'
   },
@@ -26,7 +26,7 @@ const videos = [
     id: 3, 
     title: 'Life in Nairobi: Wealth Beyond Money | Episode 2 of Life by Design with Tim Booker & Kevin Morrison',
     thumbnail: '/ep-1.jpg',
-    videoUrl: 'https://www.youtube.com/watch?v=example3',
+    videoUrl: 'https://www.youtube.com/watch?v=Yo8ZGnrYtC0',
     views: '156K',
     duration: '54:15'
   },
