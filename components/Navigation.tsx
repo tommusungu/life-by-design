@@ -2,18 +2,18 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
-import { Menu, X } from 'lucide-react';
+import { ArrowUpRight, Menu, X } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const navLinks = [
   // { label: 'Join The Community', href: '/community' },
-  { label: 'The Four Pillars', href: '/contact' },
-  { label: 'All Videos', href: '/contact' },
+  { label: 'The Four Pillars', href: '/the-four-pillars' },
+  { label: 'All Videos', href: '/videos' },
     { label: 'Services', href: '/services' },
-  { label: 'Resources', href: '/services' },
+  // { label: 'Resources', href: '/resources' },
 
-  { label: 'Blog', href: '/contact' },
-  { label: 'About', href: '/contact' },
+  { label: 'Blog', href: '/blog' },
+  { label: 'About', href: '/about' },
     { label: 'Contact', href: '/contact' },
 
 ];
@@ -71,6 +71,8 @@ export default function Navigation() {
               className="hidden sm:inline-flex items-center bg-black text-white px-6 py-2.5 rounded-sm font-semibold text-sm hover:bg-yellow-600 transition-colors shadow-sm"
             >
               Book Session
+
+              <ArrowUpRight className='text-xs pl-2'/>
             </Link>
 
             <button
