@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion';
 import { ArrowRight } from 'lucide-react';
+import Link from 'next/link';
 
 export default function MoneyPlanSection() {
   return (
@@ -17,14 +18,16 @@ export default function MoneyPlanSection() {
           <h2 className="text-2xl sm:text-4xl font-extrabold text-gray-900">
             Transform Your Life & Business
           </h2>
-          <motion.button
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-            className="bg-gray-900 text-white px-8 py-3 rounded-full font-semibold hover:bg-gray-800 transition-colors flex items-center gap-2 group"
-          >
-            ACCESS NOW
-            <ArrowRight className="group-hover:translate-x-1 transition-transform" size={18} />
-          </motion.button>
+          <Link href="/book-session">
+            <motion.button
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+              className="bg-gray-900 text-white px-8 py-3 rounded-full font-semibold hover:bg-gray-800 transition-colors flex items-center gap-2 group"
+            >
+              ACCESS NOW
+              <ArrowRight className="group-hover:translate-x-1 transition-transform" size={18} />
+            </motion.button>
+          </Link>
         </motion.div>
       </div>
     </section>
